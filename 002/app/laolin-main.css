@@ -1,0 +1,97 @@
+ul.thumbnails > li {
+  margin-bottom: 2px;
+}
+
+.top-line {
+  margin: 0 0 20px 0;
+  padding: 0 0 10px 0;
+  border-bottom:5px solid blue;
+}
+ 
+#box-back,
+#box-next,
+#box-info,
+.grid-box,
+.grid-box-item{
+  height:88px;
+}
+
+#box-back,
+#box-next{
+  background-color:#aaf;
+}
+
+
+/*alert 被bootstrap定义过了*/
+#box-info.alert2{
+  background-color:#f66;
+  color:#ff0;
+}
+
+
+
+#box-info{
+  background-color:#afa;
+}
+
+
+.grid-box-item,
+.grid-box {
+  cursor:pointer;
+  text-align: center;
+  font-size:3em;
+  line-height: 1.15em;
+  -webkit-border-radius: 22px;
+     -moz-border-radius: 22px;
+          border-radius: 22px;
+  font-weight: bold;
+}
+
+
+span.thumbnail ,
+span.thumbnail.type-text {
+  border: 2px solid #6d6;
+  color:#222;
+  cursor:pointer;
+}
+span.thumbnail.type-link{
+  border: 2px solid #66f;
+  color:#22f;
+  cursor:pointer;
+}
+span.thumbnail.type-none{
+  border: 2px solid #bbb;
+  color:#ddd;
+  cursor:no-drop;
+}
+
+span.thumbnail {
+  border: 2px solid #6d6;
+  padding:6px;
+
+  background-color:#f8f8f8;
+  -webkit-box-shadow: 1 3px 9px rgba(0, 105, 214, 0.25);
+     -moz-box-shadow: 1 3px 9px rgba(0, 105, 214, 0.25);
+          box-shadow: 1 3px 9px rgba(0, 105, 214, 0.25);
+}
+span.thumbnail.active-box {
+  border: 4px solid #66f;
+  padding:4px;
+
+  background-color:#ddf;
+  -webkit-box-shadow: 1 3px 9px rgba(0, 105, 214, 0.25);
+     -moz-box-shadow: 1 3px 9px rgba(0, 105, 214, 0.25);
+          box-shadow: 1 3px 9px rgba(0, 105, 214, 0.25);
+}
+
+#box-back.active-box,
+#box-next.active-box{
+  background-color:#66f;
+}
+#box-info.alert2.active-box{
+  background-color:#f00;
+  color:#FFf;
+}
+#box-info.active-box{
+  background-color:#6f6;
+}
